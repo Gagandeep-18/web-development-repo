@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+   
+}
+body{
+    background-image:  url(images/header-image.png);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1cm;
+
+
+}
+.header .img{
+    width: 20%;
+    height: 20cap;
+    margin-top: -5px;
+    margin-right: 20cm;
+   
+}
+.header .btn{
+   display: flex;
+  
+}
+.btn .eng{
+    margin-inline: 22px;
+  
+
+}
+.btn .eng{
+    
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+
+    border-radius: 3px;
+    
+   margin-left: 12cm;
+   
+
+}
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(254, 29, 29);
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    border: none; 
+
+}
+
+.main{
+    text-align: center;
+}
+ .main h1{
+    font-size: 60px;
+
+ }
+ .main h3{
+    font-size: 34px;
+ }
+.main p{
+    font-size: 27px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+  width: 400px;
+  height: 58px;
+  border: none;
+  font-size: 25px;
+}
+.input button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(220, 25, 25);
+    color: white;
+    font-size: 26px;
+    border: none;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 12.5cm;
+    padding: 55px;
+    /* border-top: 4px solid grey; */
+
+}
+.first h1{
+    font-size: 65px;
+    margin-top: 2cm;
+
+}
+.first p{
+    font-size: 30px;
+}
+.first img{
+    width: 44%;
+}
+.buttons h1{
+    /* border-top: 4px solid grey; */
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    
+    width: 600px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    font-size: 26px;
+    margin-left: 34.5%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid grey;
+    margin-top: 53px;
+    font-size: large;
+    color: grey;
+
+}
+.hello{
+    font-size: 28px;
+}
+.footbtn{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    font-size: 24px;
+  margin-left: 10cm;
+  
+}
+.call{
+    font-size: 24px;
+ 
+
+}

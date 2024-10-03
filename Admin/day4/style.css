@@ -1,0 +1,56 @@
+.external{
+    color: blueviolet;
+}
+#myID{
+    font-size: 200px;
+    color: green;
+}
+.hello{
+    color: brown;
+}
+/* div class using .... border, margin, padding */
+.hello1{
+    font-size: 300px;
+    background-color: greenyellow;
+    padding: 100px;
+    border: 15px solid green;
+    margin: 100px;
+}
+/* using styling css */
+.para{
+    color: red;
+    font-size: 99px;
+    font-family: sans-serif ;
+    letter-spacing: 10px;
+    font-weight: 500;
+    line-height: 100px;
+    /* more styling by css */
+    /* text-transform: capitalize;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-decoration: underline;
+*/
+border: 25px double red;
+border-radius: 50px;
+}
+.circle{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    border: 50px dotted red;
+}
+.circle2{
+    /* using for flex for center use */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 50px dotted blue;
+}
+    
